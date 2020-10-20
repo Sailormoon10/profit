@@ -1,0 +1,18 @@
+
+MAX = 10
+def main():
+    total = 0.0
+    print("This will calculate the revenue of 10 sales")
+    for counter in range(MAX):
+        sales = float(input("Enter each sale received this month: ")) 
+        total = total + sales 
+        total_profit = revenue(total) 
+    print("\nThe total revenue for this month is ${:>12,.2f}.".format(total))
+    print("The total profit for this month is  ${:>12,.2f}.".format(total_profit))
+
+
+def revenue(number): #number is the PARAMETER in the function called revenue
+    profit = (number - 50)
+    return profit 
+
+main()
