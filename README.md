@@ -1,4 +1,6 @@
 # profit
-User enters monthly sales to calculate profit
-Monthly sales loop can be changed to enter more sales
-
+Gloobal constant is defined as MAX which is the total sales for the month
+Running total is calculated
+User enters monthly sales
+Pass user input as an argument. Save value returned in a variable called 'total_profit'
+Another function is called to calculate profit
